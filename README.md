@@ -10,7 +10,15 @@ use it without jQuery
 ```
 2、the html content like this
 ```
-<section class="slider">
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>vabora css3 slider</title>
+		<link rel="stylesheet" href="slider.css"/>
+	</head>
+	<body>
+	<section class="slider">
 			<div class="slides">
 				<input checked="" id="slide1" type="radio" name="slide"/>
 				<div class="slide" style="background-image:url(image url)">
@@ -49,4 +57,6 @@ use it without jQuery
 				<label for="slide3"></label>
 			</div>
 		</section>
+	</body>
+	</html>
 ```
