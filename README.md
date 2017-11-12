@@ -8,7 +8,7 @@ use it without jQuery
 ```
 <link rel="stylesheet" href="slider.css"/>
 ```
-2、the html content like this
+2.The html content like this
 ```
 <!DOCTYPE html>
 <html>
@@ -59,4 +59,4 @@ use it without jQuery
 		</section>
 	</body>
 	</html>
-```
+	```
