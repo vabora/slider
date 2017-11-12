@@ -5,11 +5,10 @@ use it without jQuery
 
 #How to use it
 1.include the slider.css file
-```
-<link rel="stylesheet" href="slider.css"/>
-```
+`<link rel="stylesheet" href="slider.css"/>`
 2.The html content like this
 ```
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -59,4 +58,5 @@ use it without jQuery
 		</section>
 	</body>
 	</html>
-	```
+	
+```
