@@ -3,12 +3,12 @@ this is a css3 slider plugins
 use it without javascript
 use it without jQuery
 
-#How to use it
-1.include the slider.css file
+# How to use it
+1. include the slider.css file
 `<link rel="stylesheet" href="slider.css"/>`
-2.The html content like this
-```
+2. The html content like this
 
+```
 <!DOCTYPE html>
 <html>
 	<head>
