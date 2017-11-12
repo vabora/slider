@@ -1,0 +1,26 @@
+/*#vabora css3 slider
+  @author vabora
+  @version 0.1.0 beta
+*/
+.slider{position:relative;width:100%;height:500px;}
+.slider *{box-sizing:border-box;transition:all 1s ease-out;}
+.slider :active,.slider :hover{transition:all 1s ease-out;}
+.slides{position:relative;width:inherit;height:inherit;overflow:hidden;}
+.slides>input[type=radio]{display:none;}
+.slide{background-position:center center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed;position:absolute;width:100%;height:100%;opacity:0;z-index:1;}
+.slides input[type=radio]:checked+.slide{opacity:1;transition:all 1.5s ease-out;z-index:10;}
+.slides input[type=radio]:checked+.slide .slide-title *{transform: translateY(0);}
+.slide-title{background:rgba(50,50,50,.4);display:flex;flex-flow:column;justify-content:center;align-items:center;left:0;width:100%;height:100%;color:rgba(255,255,255,.9);}
+.slide-title *{line-height:2.5rem;transform: translateY(500%);}
+.slide-title a{display:inline-block;text-decoration:none;margin-top:5px;padding:8px 15px;border:.5px solid rgba(255,255,255,1);color:rgba(255,255,255,1);border-radius:3px;font-size:.9rem;line-height: 1rem;}
+.slide-title a:hover{background:rgba(255,255,255,1);box-shadow:0 0 15px rgba(50,50,50,.3);color:rgba(200,0,0,.8);transform:translateY(3px);border-radius:20px;}
+[class^=slider-arrow-]{background:rgba(250,250,250,.5);top:50%;transform:translateY(-50%);position:absolute;padding:1rem;border-radius:.15rem;color:rgba(255,255,255,.9);}
+[class^=slider-arrow-]::after{content:"";display:block;border:1px solid rgba(255,255,255,.8);border-width:1px 0 0 1px;padding:.4rem;}
+.slider-arrow-left{left:1rem;}
+.slider-arrow-right{right:1rem;}
+.slider-arrow-left::after{transform:rotate(-45deg) translate(.125rem,.13rem);}
+.slider-arrow-right::after{transform:rotate(135deg) translate(.125rem,.13rem);}
+.slider-arrow-left:hover::after{transform:rotate(-45deg) translate(0);}
+.slider-arrow-right:hover::after{transform:rotate(135deg) translate(0);}
+.slider-point{display:flex;position:absolute;left:50%;bottom:.5rem;transform:translateX(-50%);justify-content:space-around;align-items:center;z-index:10;}
+.slider-point>label{display:inline-block;background:rgba(200,200,200,.8);width:1rem;height:1rem;border-radius:100%;margin-right:.45rem;}
