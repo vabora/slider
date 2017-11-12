@@ -9,14 +9,6 @@ use it without jQuery
 2. The html content like this
 
 ```
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>vabora css3 slider</title>
-		<link rel="stylesheet" href="slider.css"/>
-	</head>
-	<body>
 	<section class="slider">
 			<div class="slides">
 				<input checked="" id="slide1" type="radio" name="slide"/>
@@ -56,8 +48,6 @@ use it without jQuery
 				<label for="slide3"></label>
 			</div>
 		</section>
-	</body>
-	</html>
 	
 ```
 3. The result like this；
