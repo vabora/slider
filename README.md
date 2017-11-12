@@ -4,11 +4,12 @@ use it without javascript
 use it without jQuery
 
 #How to use it
-1、include the slider.css file
+1.include the slider.css file
+```
 <link rel="stylesheet" href="slider.css"/>
-
+```
 2、the html content like this
-<pre>
+```
 <section class="slider">
 			<div class="slides">
 				<input checked="" id="slide1" type="radio" name="slide"/>
@@ -48,4 +49,4 @@ use it without jQuery
 				<label for="slide3"></label>
 			</div>
 		</section>
-		</pre>
+```
