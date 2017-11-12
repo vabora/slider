@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>vabora css slider</title>
+		<link rel="stylesheet" href="slider.css"/>
+	</head>
+	<body>
+		<section class="slider">
+			<div class="slides">
+				<input checked="" id="slide1" type="radio" name="slide"/>
+				<div class="slide" style="background-image:url(http://iph.href.lu/1000x500?text=image1)">
+					<div class="slide-title">
+						<h1>page1</h1>
+						<p>this is page1 content!</p>
+						<a href="#">more</a>
+					</div>
+					<label class="slider-arrow-left" for="slide3"></label>
+					<label class="slider-arrow-right" for="slide2"></label>
+				</div>
+				<input id="slide2" type="radio" name="slide"/>
+				<div class="slide" style="background-image:url(http://iph.href.lu/1000x500?text=image2)">
+					<div class="slide-title">
+						<h1>page2</h1>
+						<p>this is page2 content!</p>
+						<a href="#">more</a>
+					</div>
+					<label class="slider-arrow-left" for="slide1"></label>
+					<label class="slider-arrow-right" for="slide3"></label>
+				</div>
+				<input id="slide3" type="radio" name="slide"/>
+				<div class="slide" style="background-image:url(http://iph.href.lu/1000x500?text=image3)">
+					<div class="slide-title">
+						<h1>page3</h1>
+						<p>this is page3 content!</p>
+						<a href="#">more</a>
+					</div>
+					<label class="slider-arrow-left" for="slide2"></label>
+					<label class="slider-arrow-right" for="slide1"></label>
+				</div>
+			</div>
+			<div class="slider-point">
+				<label for="slide1"></label>
+				<label for="slide2"></label>
+				<label for="slide3"></label>
+			</div>
+		</section>
+	</body>
+</html>
