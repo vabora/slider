@@ -11,7 +11,7 @@ use it without jQuery
 ```
 	<section class="slider">
 			<div class="slides">
-				<input checked="" id="slide1" type="radio" name="slide"/>
+				<input checked id="slide1" type="radio" name="slide"/>
 				<div class="slide" style="background-image:url(image url)">
 					<div class="slide-title">
 						<h1>page1</h1>
