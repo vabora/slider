@@ -21,6 +21,7 @@ use it without jQuery
 					<label class="slider-arrow-left" for="slide3"></label>
 					<label class="slider-arrow-right" for="slide2"></label>
 				</div>
+				<label class="slider-point" style="--slide-id:1;--slide-num:3;" for="slide1"></label>
 				<input id="slide2" type="radio" name="slide"/>
 				<div class="slide" style="background-image:url(image url)">
 					<div class="slide-title">
@@ -31,6 +32,7 @@ use it without jQuery
 					<label class="slider-arrow-left" for="slide1"></label>
 					<label class="slider-arrow-right" for="slide3"></label>
 				</div>
+				<label class="slider-point" style="--slide-id:2;--slide-num:3;" for="slide2"></label>
 				<input id="slide3" type="radio" name="slide"/>
 				<div class="slide" style="background-image:url(image url)">
 					<div class="slide-title">
@@ -41,11 +43,7 @@ use it without jQuery
 					<label class="slider-arrow-left" for="slide2"></label>
 					<label class="slider-arrow-right" for="slide1"></label>
 				</div>
-			</div>
-			<div class="slider-point">
-				<label for="slide1"></label>
-				<label for="slide2"></label>
-				<label for="slide3"></label>
+				<label class="slider-point" style="--slide-id:3;--slide-num:3;" for="slide3"></label>
 			</div>
 		</section>
 	
